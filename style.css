@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand+SC&display=swap');
 
 body{
- /*    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX28855296.jpg');*/
+    background-image: url('penguin_bg.webp');
+    background-blend-mode: darken;
     background-color: rgb(41, 41, 41); 
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(3, 114, 105);
