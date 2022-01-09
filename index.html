@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Dating RESULTS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <div class="container" id="container-nombres">
+        <label for="nombresTextarea">Aca pone les nombres de les participantes</label>
+        <textarea id="nombresTextarea" rows="3" cols="1" placeholder="Escribi les nombres separados por coma ',' - Ej: Bart Simpson, Lisa Simpson, Maggie Simpson"></textarea>
+        <br>
+        <button type="submit" id="guardarNombres" class="medium">Cargar Nombres</button>
+    </div>
+
+    <div class="container disabled-block" id="container-selects">
+        <label for="user">Elegi tu nombre de la lista</label>
+        <select name="user" id="user">
+            <option value="">Elegi tu nombre</option>
+          <!--      <option value="juanito">JUANITO</option>
+            <option value="maria">MARIA</option>
+            <option value="pepe">PEPE</option>
+            <option value="julia">JULIA</option> -->
+        </select>
+        <label for="user">Opcion 1</label>
+        <select name="chosen1" id="chosen1">
+            <option value="">Elegi compañere 1</option>
+           <!--        <option value="juanito">JUANITO</option>
+            <option value="maria">MARIA</option>
+            <option value="pepe">PEPE</option>
+            <option value="julia">JULIA</option> -->
+        </select>
+        <label for="user">Opcion 2</label>
+        <select name="chosen2" id="chosen2">
+            <option value="">Elegi compañere 2</option>
+              <!--     <option value="juanito">JUANITO</option>
+            <option value="maria">MARIA</option>
+            <option value="pepe">PEPE</option>
+            <option value="julia">JULIA</option> -->
+        </select>
+        <br>
+        <button type="submit" id="guardar" class="medium">Guardar</button>
+        <br>
+        <button type="submit" id="resultado" class="dark">RESULTADO FINAL!</button>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

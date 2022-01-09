@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand+SC&display=swap');
+
+body{
+ /*    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX28855296.jpg');*/
+    background-color: rgb(41, 41, 41); 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 114, 105);
+}
+label{
+    padding: 5px;
+    
+}
+p{
+    margin: 0.2rem;
+}
+
+select, textarea{
+    border: 1px solid rgb(3, 114, 105);
+    border-radius: 5px;
+    padding: 5px;
+}
+.dark{
+    background: rgb(236, 101, 180); 
+    color: white;
+    border: 1px solid rgb(247, 194, 224); 
+    padding: 10px 0;
+    border-radius: 0 5px 0 5px;
+}
+.medium{
+    background: rgb(243, 156, 207); 
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(199, 69, 145);
+    padding: 7px 0;
+    border-radius: 5px;
+}
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(175, 247, 241);
+    border-radius: 0 25px 0 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.disabled-block{
+    opacity: 0.5;
+}
