@@ -1,4 +1,4 @@
-# Speed Dating Sorter a lo Yo me quiero cazar 👰🏻‍♀️👰🏻‍♂️
+# Speed Dating Sorter a lo Yo me quiero casar 👰🏻‍
 ## aunque tambien sirve para armar duplas de gente 😁
 
 * Se cargan los nombres de todos los participantes separados por una coma
