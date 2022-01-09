@@ -28,8 +28,28 @@ window.addEventListener("load", function(){
     btnGuardarNombres.addEventListener('click', () => {
         
         let nombresCargados = nombresTextarea.value
+
+        if(nombresCargados == ""){
+            alert("Tenes que escribir algo aca!")
+        }
+
         let inputText = nombresCargados.split(",")
+    
         console.log(inputText);
+
+        if(inputText.length < 3){
+            alert("carga como mínimo 3 nombres")
+            inputText = []
+        } else{
+
+            userSelect.disabled = false 
+            chosen1.disabled = false 
+            chosen2.disabled = false 
+    
+            containerNombres.classList.add("disabled-block")
+            containerSelects.classList.remove("disabled-block")
+                
+        }
 
         for (i=0; i<inputText.length; i++){
             let opt = document.createElement('option');
@@ -37,8 +57,6 @@ window.addEventListener("load", function(){
             opt.innerHTML = inputText[i];
 
             userSelect.appendChild(opt);
-           /*  chosen1.appendChild(opt);
-            chosen1.appendChild(opt); */
         }
         for (i=0; i<inputText.length; i++){
             let opt = document.createElement('option');
@@ -55,13 +73,9 @@ window.addEventListener("load", function(){
             chosen2.appendChild(opt); 
         }
 
-        userSelect.disabled = false 
-        chosen1.disabled = false 
-        chosen2.disabled = false 
+       
 
-        containerNombres.classList.add("disabled-block")
-        containerSelects.classList.remove("disabled-block")
-        
+      
     })
 
     userSelect.addEventListener('change', () => {
